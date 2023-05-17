@@ -1,0 +1,149 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>dropdown Menu</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <a href="" class="navbar-logo">emphere <span>coffee</span></a>
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">Tentang kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search">
+          <i data-feather="search"></i>
+        </a>
+        <a href="#" id="shopping-cart">
+          <i data-feather="shopping-cart"></i>
+        </a>
+        <a href="#" id="hamburger-menu">
+          <i data-feather="menu"></i>
+        </a>
+      </div>
+    </nav>
+    <!--navbar-->
+
+    <div class="hero">
+      <main class="content">
+        <h1>mari nikmati secangkir <span>kopi</span></h1>
+        <p>
+          Sebuah kenikmatan dan kedamaian suasana serta secangkir kopi yang
+          menenangkan pikiran
+        </p>
+        <a href="#menu"><button class="btn">Read More</button></a>
+      </main>
+    </div>
+    <div class="container">
+      <h1 class="biodata" id="about">About emphere <span>Coffee</span></h1>
+      <div class="about">
+        <div class="two">
+          <img src="image/kafe.png" alt="" />
+        </div>
+        <div class="one">
+          <h1 class="nama">Aditya Ahfazh Firmansyah</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio
+            perferendis totam porro quasi reprehenderit inventore, voluptatibus
+            voluptates vitae. Quod ducimus amet similique expedita vel natus.
+            Perferendis repudiandae voluptatibus et nam Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Eligendi eius nobis cum impedit
+            cumque eos rem dignissimos possimus, iure dolorem quaerat nihil esse
+            quas iusto? Veniam fugiat saepe iusto eos?
+          </p>
+        </div>
+      </div>
+      <h1 class="menu-page" id="menu">Menu <span>Coffee</span></h1>
+      <div class="pages">
+        <div class="black-coffee" id="black-coffee">
+          <img src="image/black-coffee.png" alt="" />
+          <h1>Black <span>coffee</span></h1>
+          <p>
+            Secangkir kopi hitam dangan perpaduan antara gula dan kopi yang pas
+          </p>
+          <h2>Rp 15.000</h2>
+        </div>
+        <div class="black-coffee">
+          <img src="image/americano-coffee.png" alt="" />
+          <h1>Americano <span>coffee</span></h1>
+          <p>Secangkir kopi dengan rasa khas Amerika yang nikmat dan mantap</p>
+          <h2>Rp 50.000</h2>
+        </div>
+        <div class="black-coffee">
+          <img src="image/capucino-coffee.png" alt="" />
+          <h1>Capucino <span>coffee</span></h1>
+          <p>Secangkir kopi dengan rasa Capucino yang lezat di mulut</p>
+          <h2>Rp 45.000</h2>
+        </div>
+        <div class="black-coffee">
+          <img src="image/latte-coffe.png" alt="" />
+          <h1>Latte <span>coffee</span></h1>
+          <p>Secangkir kopi dengan berbalut karamel di atasnya yang indah</p>
+          <h2>Rp 35.000</h2>
+        </div>
+      </div>
+    </div>
+    <!--Form Contact start-->
+    <section class="contact" id="contact">
+      <h2><span>Kontak</span> Kami</h2>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d183.0787232513891!2d111.51224104359662!3d-7.712285364974953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sid!2sid!4v1681461000654!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="send.php" method="post" target="_blank">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" name="name" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="at-sign"></i>
+            <input type="email" name="email" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <textarea name="message" placeholder="Masukan Pesan"></textarea>
+          </div>
+          <input type="hidden" name="noWa" value="6281515589404" />
+          <button type="submit" name="submit" class="buton">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!--Form Contact end-->
+    <footer>
+      <div class="socials">
+        <a href="#"><i class="fa-brands fa-instagram fa-bounce"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f fa-bounce"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter fa-bounce"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok fa-bounce"></i></a>
+      </div>
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#about">Tentang kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="">Alphby48</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <script>
+      feather.replace();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
